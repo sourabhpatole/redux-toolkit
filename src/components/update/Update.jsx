@@ -45,7 +45,7 @@ export default function Update() {
               <input
                 className="formInput"
                 type="text"
-                placeholder={user.user.name}
+                placeholder={user.user?.name}
                 onChange={(e) => setName(e.target.value)}
               />
             </div>
@@ -54,7 +54,7 @@ export default function Update() {
               <input
                 className="formInput"
                 type="text"
-                placeholder={user.user.email}
+                placeholder={user.user?.email}
                 onChange={(e) => setEmail(e.target.value)}
               />
             </div>
